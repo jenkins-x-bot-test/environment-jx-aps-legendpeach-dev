@@ -1,0 +1,14 @@
+adminUser:
+  password: vault:jx-aps-legendpeach/adminUser:password
+  username: admin
+dashboardAuthID: vault:jx-aps-legendpeach:dashboardAuthID
+dashboardAuthOrg: arcalos-dashboard
+dashboardAuthSecret: vault:jx-aps-legendpeach:dashboardAuthSecret
+dashboardGrpchost: dex.jx
+enableDocker: false
+pipelineUser:
+  email: jenkins-x@googlegroups.com
+  token: vault:jx-aps-legendpeach/pipelineUser:token
+  username: jenkins-x-bot-test
+prow:
+  hmacToken: vault:jx-aps-legendpeach/prow:hmacToken
